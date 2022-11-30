@@ -791,6 +791,10 @@ video {
   overflow: hidden;
 }
 
+.overflow-x-hidden{
+  overflow-x: hidden;
+}
+
 .p-4{
   padding: 16px;
 }
