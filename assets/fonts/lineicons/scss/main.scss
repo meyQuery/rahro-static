@@ -19,6 +19,87 @@ Generated using nucleoapp.com
   font-style: normal;
 }
 
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: 100;
+  	src: url('#{$iransans-font-path}/woff/IRANSansX-Thin.woff') format('woff'),
+	     url('#{$iransans-font-path}/woff2/IRANSansX-Thin.woff2') format('woff2');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: 200;
+	src: url('#{$iransans-font-path}/woff/IRANSansX-UltraLight.woff') format('woff'),
+	     url('#{$iransans-font-path}/woff2/IRANSansX-UltraLight.woff2') format('woff2');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: 300;
+	src: url('#{$iransans-font-path}/woff/IRANSansX-Light.woff') format('woff'),
+	     url('#{$iransans-font-path}/woff2/IRANSansX-Light.woff2') format('woff2');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: 500;
+	src: url('#{$iransans-font-path}/woff/IRANSansX-Medium.woff') format('woff'),
+	     url('#{$iransans-font-path}/woff2/IRANSansX-Medium.woff2') format('woff2');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: 600;
+	src: url('#{$iransans-font-path}/woff/IRANSansX-DemiBold.woff') format('woff'),
+	     url('#{$iransans-font-path}/woff2/IRANSansX-DemiBold.woff2') format('woff2');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: 800;
+	src: url('#{$iransans-font-path}/woff/IRANSansX-ExtraBold.woff') format('woff'),
+	     url('#{$iransans-font-path}/woff2/IRANSansX-ExtraBold.woff2') format('woff2');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: 900;
+	src: url('#{$iransans-font-path}/woff/IRANSansX-Black.woff') format('woff'),
+	     url('#{$iransans-font-path}/woff2/IRANSansX-Black.woff2') format('woff2');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: bold;
+	src: url('#{$iransans-font-path}/woff/IRANSansX-Bold.woff') format('woff'),
+	     url('#{$iransans-font-path}/woff2/IRANSansX-Bold.woff2') format('woff2');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: normal;
+	src: url('#{$iransans-font-path}/woff/IRANSansX-Regular.woff') format('woff'),
+	     url('#{$iransans-font-path}/woff2/IRANSansX-Regular.woff2') format('woff2');
+	font-display: swap;
+}
+
 /*------------------------
 	base class definition
 -------------------------*/
@@ -153,3 +234,7 @@ Generated using nucleoapp.com
 }
 
 @import "icons";
+
+body {
+  font-family: IRANSansX;
+}
